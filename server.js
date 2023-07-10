@@ -13,7 +13,7 @@ app.use(cors());
 
 server = require('http').createServer(app);
 
-mongoose.connect('mongodb+srv://borismirevbm:2YacEBc3qgz4OiLJ@aquarium.6ud9dig.mongodb.net/aquarium?retryWrites=true&w=majority', {
+mongoose.connect('--hidden--', {
     useNewUrlParser:true,
     useUnifiedTopology:true
 }).then(()=>console.log('Connected to DB'))
